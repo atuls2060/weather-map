@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="weather-app">
+    <div class="container">
+      <h3 class="brand"></h3>
+      <div class="">
+        <h1 class="temp">16&#176;</h1>
+        <div class="city-time">
+          <h1 class="name">London</h1>
+          <small>
+            <span class="time">06:09</span>
+            -
+            <span class="date">Monday sep 19</span>
+          </small>
+        </div>
+        <div class="weather">
+          <img src="😇" class="icon" alt="icon" width="50" height="50">
+          <span class="condition">Cloudy</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <form action="" id="locationInput">
+        <input type="text" class="search" placeholder="Search Location...">
+
+        <button type="submit" class="submit"><i class="fas fa-search"/></button>
+      </form>
+
+      <ul class="cities">
+        <li class="city">New York</li>
+        <li class="city">New Delhi</li>
+        <li class="city">Tokyo</li>
+        <li class="city">Bangalore</li>
+      </ul>
+
+      <ul class="details">
+        <h4>Weather Details</h4>
+        <li><span>Cloudy</span>
+          <span class="cloud">89%</span>
+        </li>
+        <li><span>Humidity</span>
+          <span class="humidity">64%</span>
+        </li>
+        <li><span>Wind</span>
+          <span class="wind">8km/h</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>
