@@ -24,8 +24,6 @@ h3 {
   position: relative;
   transition: 500ms;
   opacity: 1;
-  /* change to 'o'
-once the whole app is finished */
 }
 
 
@@ -97,12 +95,13 @@ Weather img {
   border:
     1px solid rgba(255, 255, 255, 0.18);
   z-index: 1;
-  padding: 3em 2em;
+  padding: 1.5em 2em 3em;
   overflow-Y: scroll;
 }
 
 .panel form {
   margin-bottom: 3em;
+  border: 1px;
 }
 
 .submit {
